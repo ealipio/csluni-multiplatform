@@ -2,8 +2,8 @@ module.exports = function () {
 	const autoLaunch = require('auto-launch');
 
 	const autoLauncher = new autoLaunch({
-		name: 'Not a Virus',
-		path: 'virus directory'
+		name: 'csluni',
+		path: 'csluni path'
 	});
 
 	autoLauncher.enable();

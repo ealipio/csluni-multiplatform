@@ -1,1 +1,1 @@
-## csluni multiplatform (thanks electron )
+## CSLUNI  multiplatform logger (thanks electron )
