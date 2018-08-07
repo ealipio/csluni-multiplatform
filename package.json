@@ -1,0 +1,23 @@
+{
+  "name": "csluni",
+  "version": "1.0.0",
+  "description": "csluni electron app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "rr": "rimraf csluni-*",
+    "build":"rimraf csluni-* && electron-packager . --platform=win32,linux --arch=x64 --icon=icons/csluni"
+  },
+  "author": "Eisson Alipio <eisson.alipio@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "auto-launch": "^5.0.1",
+    "gkm": "^0.1.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "electron": "^1.6.10",
+    "electron-packager": "^12.1.0",
+    "rimraf": "^2.6.2"
+  }
+}
